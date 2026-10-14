@@ -1,0 +1,22 @@
+# 统一换行符：文本文件以 LF 入库，避免 Windows / Linux 协作时产生大量差异
+* text=auto eol=lf
+
+# Windows 批处理脚本保持 CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# 二进制文件不做换行符转换
+*.ico binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.exe binary
+*.zip binary
+*.mp4 binary
+
+# 明确文本类型
+*.py   text
+*.md   text
+*.txt  text
+*.spec text
