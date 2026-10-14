@@ -28,8 +28,8 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/xufrp/M3U8.git
-cd M3U8
+git clone https://github.com/xufrp/M3U8-Downloader.git
+cd M3U8-Downloader
 
 python -m venv .venv
 .venv\Scripts\activate
